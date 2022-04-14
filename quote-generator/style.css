@@ -20,12 +20,14 @@ body {
 
 .quote-container {
 	width: auto;
+	height: 300px;
 	max-width: 900px;
 	padding: 20px 30px;
 	border-radius: 10px;
 	background-color: #157d53ed;
 	color: #fff;
 	box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+	position: relative;
 }
 
 .quote-text {
@@ -50,10 +52,12 @@ body {
 /* Buttons */
 
 .button-container {
+	width: 80%;
 	margin:  15px;
 	display: flex;
 	justify-content: space-between;
-
+	position: absolute;
+	bottom: 0;
 }
 
 #tweet-button {
@@ -83,21 +87,6 @@ button:active {
 	transform: translate(0, 0.3rem);
 	box-shadow: 0 0.1rem  rgba(255, 255, 255, 0.65);
 }
-
-/* Loader */
-.loader {
-	border: 16px solid #f3f3f3;
-	border-top: 16px solid #333; 
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	animation: spin 1.5s linear infinite;
-  }
-  
-  @keyframes spin {
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-  }
 
 /* Media Query => Tablet or Smaller */
 

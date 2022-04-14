@@ -56,4 +56,4 @@ twitterButton.addEventListener('click', tweetQuote);
 
 
 //* Load Function
-getQuotes();
+newQuote();
