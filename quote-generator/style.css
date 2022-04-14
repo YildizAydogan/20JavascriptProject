@@ -20,7 +20,7 @@ body {
 
 .quote-container {
 	width: auto;
-	height: 400px;
+	max-height: 375px;
 	max-width: 900px;
 	padding: 20px 30px;
 	border-radius: 10px;
