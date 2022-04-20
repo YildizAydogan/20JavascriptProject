@@ -20,7 +20,7 @@ body {
 
 .quote-container {
 	width: auto;
-	max-height: 375px;
+	height: 50vh;
 	max-width: 900px;
 	padding: 20px 30px;
 	border-radius: 10px;
@@ -90,12 +90,32 @@ button:active {
 
 /* Media Query => Tablet or Smaller */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
 	.quote-container {
 		margin: auto 10px;
+		height: 70vh;
+	}
+	.long-quote {
+		font-size: 0.8rem;
 	}
 
 	.quote-text {
-		font-size: 1.4rem;
+		font-size: 1rem;
+	}
+	.quote-author {
+		font-size: 1rem;
+	}
+
+	.button-container {
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		position: absolute;
+		bottom: 0;
+	}
+
+	button {
+		margin: 15px 0;
 	}
 }
